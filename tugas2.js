@@ -16,5 +16,5 @@ console.log("\n"+
     "Tipe Data Boolean = " + tipedataBoolean, "\n",
     "Tipe Data Null = " + tipedataNull, "\n",
     "Tipe Data Array = " + tipedataArray
-)
+);
 

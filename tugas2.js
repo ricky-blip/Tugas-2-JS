@@ -18,3 +18,57 @@ console.log("\n"+
     "Tipe Data Array = " + tipedataArray
 );
 
+console.log("\n=============Function================")
+function jalanSatu(){
+    console.log("1")
+}
+
+const jalanDua = function(){
+    console.log("2")
+}
+
+jalanSatu()
+jalanDua()
+
+const jalanTiga = () => {
+    console.log("3")
+}
+
+jalanTiga()
+
+console.log("\n=============Return Function================")
+
+function apaajalah(){
+    const nilai = 100;
+    return nilai;
+}
+var angka = apaajalah();
+console.log(angka);
+
+console.log("\n=============Parameter Function================")
+
+function data(a,b,c){
+    console.log(a);
+    console.log(b);
+    console.log(c);
+}
+data(1,2,3);
+
+console.log("\n========Parameter Default Function===========")
+
+function parameterDefault(x = 10){
+    console.log(x);
+}
+parameterDefault();
+
+console.log("\n=============Tugas 3================")
+
+
+function tugas3(a){
+    console.log(a);
+    tambah = a + 2; 
+    return tambah;
+}
+
+var nilai = tugas3(9); 
+console.log(nilai);
